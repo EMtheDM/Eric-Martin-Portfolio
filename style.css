@@ -13,7 +13,7 @@ header {
 
 header h1 {
     background-color: #80c0c0;
-    width: 300px;
+    width: 200px;
     height: 30px;
     display: flex;
     justify-content: flex-end;
@@ -97,3 +97,9 @@ ul {
     background-color: #80c0c0;
     /* overflow-wrap:break-word; */
 }
+
+@media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+    }
+  }
