@@ -8,6 +8,7 @@ body {
 
 header {
     background-color: #36454F;
+    padding: 15px;
 }
 
 nav {
@@ -16,22 +17,51 @@ nav {
 
 header h1 {
     background-color: #80c0c0;
-    
+    width: 300px;
+    text-align: right;
+    padding: 10px;
+    margin-top: 15px;
 }
 
+.banner img {
+    width: 1107px;
+    height: 300px;
+}
+
+h2 {
+    position: absolute;
+    right: 20px;
+    top: 420px;
+
+}
+
+.about_me h1 {
+    float: left;
+}
+
+.about_me img {
+    width: 300px;
+    height: 250px;
+}
 
 .about_me p {
     color: black;
 }
 
-
 a {
     text-decoration:none;
 }
 
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
 nav a {
     color: #80c0c0;
-
 }
 
 ul {
