@@ -8,10 +8,7 @@ body {
 
 header {
     background-color: #36454F;
-}
-
-nav {
-    color: #80c0c0;
+    display: flex;
 }
 
 header h1 {
@@ -20,7 +17,23 @@ header h1 {
     width: 300px;
     text-align: right;
     padding: 10px;
-    margin-top: 15px;
+}
+
+nav {
+    color: #80c0c0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+nav a {
+    color: #80c0c0;
 }
 
 .banner img {
@@ -28,12 +41,12 @@ header h1 {
     height: 200px;
 }
 
-h2 {
+/* h2 {
     position: absolute;
     right: 20px;
     top: 420px;
 
-}
+} */
 
 .about_me h1 {
     float: left;
@@ -50,18 +63,6 @@ h2 {
 
 a {
     text-decoration:none;
-}
-
-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    flex-wrap: wrap;
-}
-
-nav a {
-    color: #80c0c0;
 }
 
 ul {
