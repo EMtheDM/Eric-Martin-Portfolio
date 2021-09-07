@@ -3,113 +3,58 @@
 }
 
 body {
-    
+    color: #23395d;
 }
 
 header {
-
+    background-color: #36454F;
 }
 
 nav {
-
+    color: #80c0c0;
 }
 
-main {
-
-}
-
-section {
-
-}
-
-footer {
-
-}
-
-h1 {
+header h1 {
+    background-color: #80c0c0;
     
 }
 
-h2 {
 
+.about_me p {
+    color: black;
 }
 
-h3 {
-    
-}
-
-p {
-
-}
-
-img {
-
-}
 
 a {
+    text-decoration:none;
+}
+
+nav a {
+    color: #80c0c0;
 
 }
 
 ul {
-
+    list-style: none;
 }
 
-li {
-
-}
-
-.banner {
-
-}
-
-.about_me {
-
-}
-
-.work {
-
-}
-
-.contact_me {
-
+.contact_me a {
+    color: #23395d;
 }
 
 #about_me {
-
+    font-size: xx-large;
 }
 
 #work {
-
+    font-size: xx-large;
 }
 
 #contact_me {
-
+    font-size: xx-large;
 }
 
-#banner {
-
-}
-
-#portrait {
-
-}
-
-#project_1 {
-
-}
-
-#project_2 {
-
-}
-
-#project_3 {
-
-}
-
-#project_4 {
-
-}
-
-#project_5 {
-
+#project_1 p, #project_2 p, #project_3 p, #project_4 p, #project_5 p {
+    background-color: #80c0c0;
+    overflow-wrap:break-word;
 }
