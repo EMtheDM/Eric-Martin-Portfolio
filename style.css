@@ -1,5 +1,5 @@
 * {
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -59,7 +59,7 @@ li {
 }
 
 .banner {
-    
+
 }
 
 .about_me {
@@ -83,5 +83,33 @@ li {
 }
 
 #contact_me {
+
+}
+
+#banner {
+
+}
+
+#portrait {
+
+}
+
+#project_1 {
+
+}
+
+#project_2 {
+
+}
+
+#project_3 {
+
+}
+
+#project_4 {
+
+}
+
+#project_5 {
 
 }
