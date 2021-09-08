@@ -4,11 +4,10 @@
 Designed and deployed my portfolio webpage using only HTML and CSS.
 
 ## Usage
-Provide instructions and examples for use. Include screenshots as needed.
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-    ```md
-    ![alt text](assets/Screenshot.gif)
-    ```
+Navigate to: https://emthedm.github.io/Eric-Martin-Portfolio/
+
+![Alt Text](assets/Screenshot.gif)
+
 ## License
 MIT License
 
