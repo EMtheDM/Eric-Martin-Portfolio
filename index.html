@@ -3,63 +3,111 @@
     <head>
         <meta charset="UTF-8">
         <title>Eric Martin Portfolio</title>
-        <link rel="reset" href="reset.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="reset" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
     </head>    
     <body>
-        <header>
-            <h1>Eric Martin</h1>
-            <nav>
-                <a href="#about_me">About Me</a>
-                <a href="#work">Work</a>
-                <a href="#contact_me">Contact Me</a>
-                <a href="assets/Resume-Eric-Martin.pdf">Resume</a>
-            </nav>
+        <header class="container-fluid">
+            <div class="row">
+                <div class="col d-flex align-items-center">
+                    <h1 class="header-h1">Eric Martin</h1>
+                </div>
+                <div class="col-sm d-flex justify-content-end align-items-center">
+                    <nav class="col navbar d-flex justify-content-end navbar-expand-sm">
+                        <a class="navbar-brand" href="#about_me">About Me</a>
+                        <a class="navbar-brand" href="#work">Work</a>
+                        <a class="navbar-brand" href="#contact_me">Contact Me</a>
+                        <a class="navbar-brand" href="assets/Resume-Eric-Martin.pdf" target="_blank">Resume</a>
+                    </nav>
+                </div>
+            </div>
         </header>
         <main>
-            <section class="banner">
-                <h2>My Portfolio</h2>
-            </section>
+            <div class="banner card">
+                <img src="assets/images/Banner.jpg" alt="banner">
+                <div class="card-img-overlay">
+                </div>
+            </div>
+            <div class="card">
             <section class="about_me">
-                <h1 id="about_me">About Me</h1>
-                <img id="portrait" src="assets/Portrait.jpg" alt="Portrait">
-                <p>
-                    I'm Eric Martin. A full-stack web developer from Denver, Colorado. I build dynamic websites and web applications.
-                </p>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <h1 id="about_me">About Me</h1>
+                    </div>
+                    <div class="col-sm-3">
+                        <img class="col-sm img-fluid" id="portrait" src="assets/images/Portrait.jpg" alt="Portrait">
+                    </div>
+                    <div class="col-sm-6">
+                        <p id="about_me_p">
+                            I'm Eric Martin. A full-stack web developer from Denver, Colorado. I build dynamic websites and web applications.
+                        </p>
+                    </div>
+                </div>
             </section>
-            <section class="work">
-                <h1 id="work">Work</h1>
-                <ul>
-                    <li id="project_1">
-                         <a href="starry_night.html"><p id="project_1_p">Starry Night Project 1</p></a>
-                    </li>
-                    <li id="project_2">
-                        <a href="neon.html"></a><p>Neon Sign Project 2</p>
-                    </li>
-                    <li id="project_3">
-                        <a href="metal.html"></a><p>Metal Works Project 3</p>
-                    </li>
-                    <li id="project_4">
-                        <a href="geometry.html"></a><p>Geometry Project 4</p>
-                    </li>
-                    <li id="project_5">
-                        <a href="office.html"></a><p>Office Game Project 5</p>
-                    </li>
-                </ul>
+            </div>
+            <div class="card">
+            <section>
+                <div class="row d-flex">
+                    <div class="col-sm-2">
+                        <h1 id="work">Work</h1>
+                    </div>
+                    <div class="work col-sm-9">
+                        <ul class="col-sm d-flex">
+                            <li class="col-sm" id="project_1">
+                                <a class="project_opacity" id="project_a" href="https://emthedm.github.io/Watchr/" target="_blank">
+                                    <img id="project_img" src="assets/images/watchr-image.png" alt="Project 1">
+                                </a>
+                                <a href="https://github.com/EMtheDM/Watchr" target="_blank">
+                                    <p class="work_p">Watchr: Github</p>
+                                </a>    
+                            </li>
+                            <li class="col-sm" id="project_2">
+                                <a class="project_opacity" id="project_a" href="https://emthedm.github.io/Weather-Dashboard/" target="_blank">
+                                    <img id="project_img" src="assets/images/weather-dashboard.png" alt="Project 2">
+                                </a>
+                                <a href="https://github.com/EMtheDM/Weather-Dashboard" target="_blank">
+                                    <p class="work_p">Weather Dashboard: Github</p>
+                                </a>    
+                            </li>
+                            <li class="col-sm" id="project_3">
+                                <a class="project_opacity" id="project_a" href="https://emthedm.github.io/Password_Generator/" target="_blank">
+                                    <img id="project_img" src="assets/images/password-generator.png" alt="Project 3">
+                                </a>
+                                <a href="https://github.com/EMtheDM/Password_Generator" target="_blank">
+                                    <p class="work_p">Password Generator: Github</p>
+                                </a>    
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </section>
-            <section class="contact_me">
-                <h1 id="contact_me">Contact Me</h1>
-                <ul>
-                    <li>919.272.2201</li>
-                    <li>eric_martin@me.com</li>
-                    <li><a href="https://github.com/EMtheDM/">GitHub</a></li>
-                    <li><a href="https://twitter.com/emthedm1">Twitter</a></li>
-                    <li><a href="https://open.spotify.com/user/129720671?si=ab18316e1c45410b">Spotify</a></li>
-                </ul>
+            </div>
+            <div class="card">
+            <section>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <h1 id="contact_me">Contact Me</h1>
+                    </div>
+                    <div class="contact_me col-sm-9">
+                        <ul>
+                            <li>919.272.2201</li>
+                            <li>eric_martin@me.com</li>
+                            <li><a class="contact_a" href="https://github.com/EMtheDM/" target="_blank">GitHub</a></li>
+                            <li><a class="contact_a" href="www.linkedin.com/in/EMtheDM
+                                " target="_blank">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
             </section>
+            </div>
         </main>
-        <!-- <footer>
-            <p>Eric Martin 2021</p>
-        </footer> -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="assets/js/script.js"></script>
     </body>
 </html>
