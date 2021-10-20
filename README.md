@@ -6,7 +6,7 @@ Designed and deployed my portfolio webpage using only HTML and CSS.
 ## Usage
 Navigate to: https://emthedm.github.io/Eric-Martin-Portfolio/
 
-![Alt Text](assets/Screenshot.gif)
+![Alt Text](assets/images/Screenshot.gif)
 
 ## License
 MIT License
