@@ -7,104 +7,78 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css">
     </head>    
     <body>
-        <header class="container-fluid">
-            <div class="row">
-                <div class="col d-flex align-items-center">
-                    <h1 class="header-h1">Eric Martin</h1>
+        <!-- Header & Navbar -->
+        <nav class='navbar navbar-light navbar-expand-lg' style='background-color: #9E9E9E;'>
+                <a class='navbar-brand' href='#' style='font-size: 40px; font-family: Permanent Marker, cursive;'>Eric Martin</a>
+                <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
+                    <span class='navbar-toggler-icon'></span>
+                </button>
+
+                <div class='navbar ml-auto' id='navbarNav'>
+                    <ul class='navbar-nav'>
+                        <li class='nav-item active'>
+                            <a class='nav-link' href='/'>Home <span class='sr-only'>(current)</span></a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='#about_me'>About Me</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              My Work
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="https://github.com/EMtheDM/BrightIdeas" target='_blank'>BrightIdeas</a>
+                              <a class="dropdown-item" href="https://github.com/EMtheDM/Code_Quiz" target='_blank'>Code Quiz</a>
+                              <a class="dropdown-item" href="https://github.com/EMtheDM/Day_Planner" target='_blank'>Day Planner</a>
+                              <a class="dropdown-item" href="https://github.com/EMtheDM/E-Commerce-BackEnd" target='_blank'>E-Commerce Backend</a>
+                              <a class="dropdown-item" href="https://github.com/EMtheDM/Employee_Tracker" target='_blank'>Employee Tracker</a>
+                              <a class="dropdown-item" href="https://github.com/EMtheDM/Note-Taker" target='_blank'>Note Taker</a>
+                              <a class="dropdown-item" href="https://github.com/EMtheDM/Password_Generator" target='_blank'>Password Generator</a>
+                              <a class="dropdown-item" href="https://github.com/EMtheDM/README_Generator" target='_blank'>README Generator</a>
+                              <a class="dropdown-item" href="https://github.com/EMtheDM/Team-Profile-Generator" target='_blank'>Team Profile Generator</a>
+                              <a class="dropdown-item" href="https://github.com/EMtheDM/Tech-Blog" target='_blank'>Tech Blog</a>
+                              <a class="dropdown-item" href="https://emthedm.github.io/Watchr/" target='_blank'>Watchr</a>
+                              <a class="dropdown-item" href="https://github.com/EMtheDM/Weather-Dashboard" target='_blank'>Weather Dashboard</a>
+                            </div>
+                          </li>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='#contact_me'>Contact</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='assets/Resume-Eric-Martin.pdf' target='_blank'>Resume</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-sm d-flex justify-content-end align-items-center">
-                    <nav class="col navbar d-flex justify-content-end navbar-expand-sm">
-                        <a class="navbar-brand" href="#about_me">About Me</a>
-                        <a class="navbar-brand" href="#work">Work</a>
-                        <a class="navbar-brand" href="#contact_me">Contact Me</a>
-                        <a class="navbar-brand" href="assets/Resume-Eric-Martin.pdf" target="_blank">Resume</a>
-                    </nav>
-                </div>
-            </div>
-        </header>
+        </nav>
         <main>
-            <div class="banner card">
-                <img src="assets/images/Banner.jpg" alt="banner">
-                <div class="card-img-overlay">
-                </div>
+            <!-- Banner -->
+            <div class='banner'>
+
             </div>
-            <div class="card">
-            <section class="about_me">
-                <div class="row">
-                    <div class="col-sm-2">
-                        <h1 id="about_me">About Me</h1>
-                    </div>
-                    <div class="col-sm-3">
-                        <img class="col-sm img-fluid" id="portrait" src="assets/images/Portrait.jpg" alt="Portrait">
-                    </div>
-                    <div class="col-sm-6">
-                        <p id="about_me_p">
-                            I'm Eric Martin. A full-stack web developer from Denver, Colorado. I build dynamic websites and web applications.
-                        </p>
-                    </div>
-                </div>
+
+            <!-- About Me -->
+            <section class='about-me'>
+                
             </section>
-            </div>
-            <div class="card">
-            <section>
-                <div class="row d-flex">
-                    <div class="col-sm-2">
-                        <h1 id="work">Work</h1>
-                    </div>
-                    <div class="work col-sm-9">
-                        <ul class="col-sm d-flex">
-                            <li class="col-sm" id="project_1">
-                                <a class="project_opacity" id="project_a" href="https://emthedm.github.io/Watchr/" target="_blank">
-                                    <img id="project_img" src="assets/images/watchr-image.png" alt="Project 1">
-                                </a>
-                                <a href="https://github.com/EMtheDM/Watchr" target="_blank">
-                                    <p class="work_p">Watchr: Github</p>
-                                </a>    
-                            </li>
-                            <li class="col-sm" id="project_2">
-                                <a class="project_opacity" id="project_a" href="https://emthedm.github.io/Weather-Dashboard/" target="_blank">
-                                    <img id="project_img" src="assets/images/weather-dashboard.png" alt="Project 2">
-                                </a>
-                                <a href="https://github.com/EMtheDM/Weather-Dashboard" target="_blank">
-                                    <p class="work_p">Weather Dashboard: Github</p>
-                                </a>    
-                            </li>
-                            <li class="col-sm" id="project_3">
-                                <a class="project_opacity" id="project_a" href="https://emthedm.github.io/Password_Generator/" target="_blank">
-                                    <img id="project_img" src="assets/images/password-generator.png" alt="Project 3">
-                                </a>
-                                <a href="https://github.com/EMtheDM/Password_Generator" target="_blank">
-                                    <p class="work_p">Password Generator: Github</p>
-                                </a>    
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            </div>
-            <div class="card">
-            <section>
-                <div class="row">
-                    <div class="col-sm-2">
-                        <h1 id="contact_me">Contact Me</h1>
-                    </div>
-                    <div class="contact_me col-sm-9">
-                        <ul>
-                            <li>919.272.2201</li>
-                            <li>eric_martin@me.com</li>
-                            <li><a class="contact_a" href="https://github.com/EMtheDM/" target="_blank">GitHub</a></li>
-                            <li><a class="contact_a" href="www.linkedin.com/in/EMtheDM
-                                " target="_blank">LinkedIn</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            </div>
+            <!-- My Work -->
+
         </main>
+        <hr>
+        <!-- Contact Me -->
+        <section class='contact-footer'>
+            <nav class='nav flex-column flex-sm-row' style='background-color: #9E9E9E;'>
+                <h2 class='contact'>Contact Me</h2>
+                <a class='nav-link flex-sm-fill text-sm-center nav-footer' href='tel:919-272-2201' target='_blank'>919.272.2201</a>
+                <a class='nav-link flex-sm-fill text-sm-center nav-footer' href='mailto:eric_martin@me.com' target='_blank'>Email</a>
+                <a class='nav-link flex-sm-fill text-sm-center nav-footer' href='https://www.instagram.com/emthedm1/' target='_blank'>Instagram</a>
+                <a class='nav-link flex-sm-fill text-sm-center nav-footer' href='https://www.linkedin.com/in/emthedm/' target='_blank'>LinkedIn</a>
+            </nav>
+        </section>
+
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
