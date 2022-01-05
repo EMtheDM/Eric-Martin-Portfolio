@@ -1,4 +1,9 @@
 /* Navbar */
+.navbar {
+    height: 50px;
+    opacity: 75%;
+}
+
 .nav-item {
     text-decoration: underline;
     margin: 2px;
